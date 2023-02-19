@@ -1,0 +1,63 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    font-size: 1.2rem;
+    margin-left: 0.5rem;
+  }
+  
+  input[type="checkbox"] {
+    margin-right: 0.5rem;
+  }
+  
+  button.remove {
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    margin-left: 1rem;
+  }
+  
